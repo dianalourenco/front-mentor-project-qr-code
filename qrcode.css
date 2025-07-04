@@ -1,0 +1,49 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.big-container{
+    background-color: white;
+    width: 255px;
+    border-radius: 15px ;
+    height: 420px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.qrcode-icon {
+    width: 250px;
+    border-radius: 15px;
+}
+
+
+.first-text {
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.second-text {
+    font-family: Outfit;
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.attribution {
+    position: fixed;
+    text-align: center;
+    font-size: 10px;
+    bottom: 0;
+}
